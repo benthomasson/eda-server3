@@ -15,6 +15,12 @@ jobs:
       packages: write
       contents: write
     steps:
+      - name: Install go-task
+        run: |
+          curl -sL https://taskfile.dev/install.sh | sh
+          mv ./bin/task /usr/local/bin/task
+          task --version
+
       - name: Checkout eda-server
         uses: actions/checkout@v3
 
