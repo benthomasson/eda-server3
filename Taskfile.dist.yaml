@@ -360,7 +360,7 @@ tasks:
     desc: "builds all the files needed for a release"
     cmds:
       - cmd: mkdir -p dist
-      - cmd: tar -zcvf dist/eda-server.tar.gz LICENSE README.md Makefile Taskfile.dist.yaml docs poetry.lock pyproject.toml pytest.ini requirements_dev.txt scripts setup.cfg src tests tools
+      - cmd: tar -zcvf dist/eda-server.tar.gz LICENSE README.md Taskfile.dist.yaml docs poetry.lock pyproject.toml pytest.ini requirements_dev.txt scripts setup.cfg src tests tools
 
 
   PYTHON_VERSION:
