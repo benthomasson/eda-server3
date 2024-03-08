@@ -33,7 +33,7 @@
 
     - name: Build eda-server
       command:
-        cmd: make build
+        cmd: task build:release
       args:
         chdir: '../../'
       tags:
