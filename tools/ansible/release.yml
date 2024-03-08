@@ -4,7 +4,7 @@
   connection: local
   gather_facts: true
   vars:
-    repo_identifier: "ansible/eda-server"
+    repo_identifier: "benthomasson/eda-server3"
     api_repo_prefix: "https://api.github.com/repos/{{ repo_identifier }}"
 
   # Note:
